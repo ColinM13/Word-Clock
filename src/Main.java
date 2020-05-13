@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 public class Main {
 
     public static void main(String[] args) {
-        WordClock wc = new WordClock();
+        WordClock wc = new WordClock(6, 0);
         wc.printWordTime();
     }
 }
