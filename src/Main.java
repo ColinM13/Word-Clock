@@ -1,12 +1,9 @@
-import java.time.LocalTime;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import app.WordClock;
 
 public class Main {
 
     public static void main(String[] args) {
-        WordClock wc = new WordClock(6, 0);
+        WordClock wc = new WordClock(25, 0);
         wc.printWordTime();
     }
 }

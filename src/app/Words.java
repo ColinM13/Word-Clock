@@ -1,3 +1,5 @@
+package app;
+
 public class Words {
 
     public static final String[] hours = {"midnight", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "noon"};
